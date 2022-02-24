@@ -19,7 +19,6 @@ body {
 
 .blue-gradient {
     background: linear-gradient(to right, rgb(22, 113, 202) 50%, transparent 50%);
-    animation: spin 1s infinite linear;
 }
 
 .shake {
