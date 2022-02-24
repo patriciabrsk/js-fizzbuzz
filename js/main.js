@@ -11,22 +11,26 @@ for (i = 0; i <= 100; i++) {
         'box', 
         'd-flex',
         'shadow', 
+        'm-2',
         'rounded-3', 
         'align-items-center', 
         'text-uppercase',
         'justify-content-center'
         );
+    divBoard.append(newDiv);
 
     // Per i numeri che sono sia multipli di 3 che di 5 stampa FizzBuzz
     if ((i % 3 == 0) && (i % 5 == 0)) {
         newDiv.innerHTML = '<h5>FizzBuzz</h5>';
+
+    // per i multipli di 3 stampa “Fizz” al posto del numero
     } else if (i % 3 == 0) {
         newDiv.innerHTML = '<h5>Fizz</h5>';
+        
+    // e per i multipli di 5 stampa Buzz
     } else if (i % 5 == 0) {
         newDiv.innerHTML = '<h5>Buzz</h5>';
     } else {
         newDiv.innerHTML = '<h5>' + i + '</h5>';
     }
-
-    divBoard.append(newDiv);
 }
