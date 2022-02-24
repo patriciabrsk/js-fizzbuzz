@@ -10,6 +10,26 @@ body {
 .box {
     height: 120px;
     width: 120px;
-    background-color: #e0e5ec;
     color: grey;
+}
+
+.bg-lightgrey {
+    background-color: #e0e5ec;
+}
+
+.blue-gradient {
+    background: linear-gradient(to right, rgb(22, 113, 202) 50%, transparent 50%);
+    animation: spin 1s infinite linear;
+}
+
+.shake {
+    animation: shake 1s ease infinite;
+}
+
+@keyframes shake {
+    30% { transform: scale(1); }
+    40%, 60% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg); }
+    70% { transform: rotate(0deg); }
+    100% { transform: scale(1); }
 }

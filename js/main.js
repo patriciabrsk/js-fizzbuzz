@@ -21,16 +21,18 @@ for (i = 0; i <= 100; i++) {
 
     // Per i numeri che sono sia multipli di 3 che di 5 stampa FizzBuzz
     if ((i % 3 == 0) && (i % 5 == 0)) {
-        newDiv.innerHTML = '<h5>FizzBuzz</h5>';
+        newDiv.innerHTML = '<h5 class="text-primary fs-bold">FizzBuzz</h5>';
+        newDiv.classList.add('shake');
 
     // per i multipli di 3 stampa “Fizz” al posto del numero
     } else if (i % 3 == 0) {
-        newDiv.innerHTML = '<h5>Fizz</h5>';
-        
+        newDiv.innerHTML = '<h5 class="fs-bold">Fizz</h5>';
+        newDiv.classList.add('text-white');
     // e per i multipli di 5 stampa Buzz
     } else if (i % 5 == 0) {
-        newDiv.innerHTML = '<h5>Buzz</h5>';
+        newDiv.innerHTML = '<h5 class="fs-bold">Buzz</h5>';
     } else {
         newDiv.innerHTML = '<h5>' + i + '</h5>';
+        newDiv.classList.add('rounded-circle');
     }
 }
