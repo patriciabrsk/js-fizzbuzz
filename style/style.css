@@ -21,6 +21,7 @@ body {
     background-image: linear-gradient(to right top, #0275d8, #5991de, #88ade4, #b4c9e8, #e0e5ec);
 }
 
+/* Class for shake effect */
 .shake {
     animation: shake 1s ease infinite;
 }
@@ -41,6 +42,7 @@ body {
     color: #FAFF00;
 }
 
+/* Class for spin effect */
 .spin {
     animation: spin 1s infinite linear;
 }
