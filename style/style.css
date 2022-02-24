@@ -18,7 +18,7 @@ body {
 }
 
 .blue-gradient {
-    background: linear-gradient(to right, rgb(22, 113, 202) 50%, transparent 50%);
+    background-image: linear-gradient(to right top, #0275d8, #5991de, #88ade4, #b4c9e8, #e0e5ec);
 }
 
 .shake {
@@ -31,4 +31,21 @@ body {
     50% { transform: rotate(20deg); }
     70% { transform: rotate(0deg); }
     100% { transform: scale(1); }
+}
+
+.my-text-lightg {
+    color: #e0e5ec;
+}
+
+.my-text-neon {
+    color: #FAFF00;
+}
+
+.spin {
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }

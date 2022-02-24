@@ -26,13 +26,14 @@ for (i = 0; i <= 100; i++) {
 
     // per i multipli di 3 stampa “Fizz” al posto del numero
     } else if (i % 3 == 0) {
-        newDiv.innerHTML = '<h5 class="fs-bold">Fizz</h5>';
-        newDiv.classList.add('text-white');
+        newDiv.innerHTML = '<h5 class="fs-bold my-text-neon">Fizz</h5>';
+        // newDiv.classList.add('');
     // e per i multipli di 5 stampa Buzz
     } else if (i % 5 == 0) {
         newDiv.innerHTML = '<h5 class="fs-bold">Buzz</h5>';
+        newDiv.classList.add('text-dark');
     } else {
-        newDiv.innerHTML = '<h5>' + i + '</h5>';
-        newDiv.classList.add('rounded-circle');
+        newDiv.innerHTML = '<h5 class="fs-2 my-text-lightg">' + i + '</h5>';
+        newDiv.classList.add('rounded-circle', 'blue-gradient', 'spin');
     }
 }
