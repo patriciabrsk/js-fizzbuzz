@@ -26,7 +26,7 @@ for (i = 1; i <= 100; i++) {
     // Number divisible by 3 will print Fizz, replacing existing number
     } else if (i % 3 == 0) {
         newDiv.innerHTML = '<h5 class="fs-bold my-text-neon">Fizz</h5>';
-        // newDiv.classList.add('');
+        newDiv.classList.add('bg-dark','bg-gradient');
 
     // Number divisible by 5 will print Buzz, replacing existing number
     } else if (i % 5 == 0) {
