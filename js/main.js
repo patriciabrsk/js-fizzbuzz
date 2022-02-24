@@ -3,8 +3,8 @@
 // Selecting element by id 
 const divBoard = document.getElementById('board');
 
-// Iterating through numbers from 0 to 100
-for (i = 0; i <= 100; i++) {
+// Iterating through numbers from 1 to 100
+for (i = 1; i <= 100; i++) {
     let newDiv = document.createElement('div');
     newDiv.classList.add(
         'box', 
