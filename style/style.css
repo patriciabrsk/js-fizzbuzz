@@ -44,7 +44,7 @@ body {
 
 /* Class for spin effect */
 .spin {
-    animation: spin 1s infinite linear;
+    animation: spin 2s infinite linear;
 }
 
 @keyframes spin {
