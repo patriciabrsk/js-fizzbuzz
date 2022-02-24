@@ -16,18 +16,17 @@ for (i = 0; i <= 100; i++) {
         'text-uppercase',
         'justify-content-center'
         );
-    divBoard.append(newDiv);
 
     // Per i numeri che sono sia multipli di 3 che di 5 stampa FizzBuzz
     if ((i % 3 == 0) && (i % 5 == 0)) {
-        newDiv.innerHTML = '<h6>FizzBuzz</h6>';
-        newDiv.classList.add();
+        newDiv.innerHTML = '<h5>FizzBuzz</h5>';
     } else if (i % 3 == 0) {
-        newDiv.innerHTML = '<h6>Fizz</h6>';
+        newDiv.innerHTML = '<h5>Fizz</h5>';
     } else if (i % 5 == 0) {
-        newDiv.innerHTML = '<h6>Buzz</h6>';
+        newDiv.innerHTML = '<h5>Buzz</h5>';
     } else {
-        newDiv.innerHTML = '<h6></h6>';
+        newDiv.innerHTML = '<h5>' + i + '</h5>';
     }
-}
 
+    divBoard.append(newDiv);
+}
