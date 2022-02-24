@@ -23,13 +23,13 @@ body {
 
 /* Class for shake effect */
 .shake {
-    animation: shake 1s ease infinite;
+    animation: shake 1.5s ease infinite;
 }
 
 @keyframes shake {
     30% { transform: scale(1); }
-    40%, 60% { transform: rotate(-20deg); }
-    50% { transform: rotate(20deg); }
+    40%, 60% { transform: rotate(-15deg); }
+    50% { transform: rotate(15deg); }
     70% { transform: rotate(0deg); }
     100% { transform: scale(1); }
 }
