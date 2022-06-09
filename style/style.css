@@ -7,6 +7,10 @@ body {
     background-color: #e0e5ec;
 }
 
+div#board {
+    box-shadow: .3rem .3rem .6rem lightgray, -.2rem -.2rem 1.8rem white;
+}
+
 .box {
     height: 120px;
     width: 120px;
